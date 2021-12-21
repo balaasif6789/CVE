@@ -1,4 +1,4 @@
-**this is bold  Remediation steps**
+**Remediation steps**
 
 Update Log4j. The best defense against this vulnerability is to patch all 2.x Log4j versions to 2.16.0.
 Disable Log4j Lookups. At its core, this vulnerability requires Log4j lookups to be enabled. Per this [Apache Jira ticket](https://issues.apache.org/jira/browse/LOG4J2-2109), after Log4j version 2.10, passing `‐Dlog4j2.formatMsgNoLookups=true` to the JVM will disable Log4j lookups and protect the system from exploitation.
